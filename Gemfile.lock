@@ -147,6 +147,7 @@ GEM
     puma (3.12.1)
     puma (3.12.1-java)
     rack (2.0.7)
+    rack-cors (1.0.3)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rails (5.2.3)
@@ -258,6 +259,7 @@ DEPENDENCIES
   pg
   pry-rails
   puma (~> 3.11)
+  rack-cors
   rails (~> 5.2.2)
   redis (~> 4.0)
   rspec-rails (~> 3.8)
