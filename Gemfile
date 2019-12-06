@@ -9,9 +9,11 @@ gem 'puma', '~> 3.12'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'redis', '~> 4.0'
 gem 'bcrypt', '~> 3.1.7'
-gem 'devise'
+gem 'devise', '>= 4.7.1'
 gem 'devise_token_auth'
-gem 'rack-cors', require: 'rack/cors'
+gem 'rack-cors', '>= 1.0.4', require: 'rack/cors'
+gem 'rubyzip', '>= 1.3.0'
+gem "loofah", ">= 2.3.1"
 # gem 'mini_magick', '~> 4.8'
 # gem 'omniauth'
 # gem 'activeadmin'
