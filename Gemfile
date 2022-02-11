@@ -5,7 +5,7 @@ ruby '2.6.0'
 
 gem 'rails', '~> 5.2.2'
 gem 'pg'
-gem 'puma', '~> 3.12'
+gem 'puma', '~> 4.3'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'redis', '~> 4.0'
 gem 'bcrypt', '~> 3.1.7'
